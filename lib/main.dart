@@ -95,9 +95,7 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 }
 
-// ─────────────────────────────────────────────
 // AMOUNT DISPLAY
-// ─────────────────────────────────────────────
 
 class _AmountDisplay extends StatelessWidget {
   final int amount;
@@ -129,13 +127,10 @@ class _AmountDisplay extends StatelessWidget {
     );
   }
 
-  // ignore: unused_element
   int get _amount => amount;
 }
 
-// ─────────────────────────────────────────────
 // PORTRAIT LAYOUT
-// ─────────────────────────────────────────────
 
 class _PortraitBody extends StatelessWidget {
   final int amount;
@@ -170,9 +165,7 @@ class _PortraitBody extends StatelessWidget {
   }
 }
 
-// ─────────────────────────────────────────────
 // LANDSCAPE LAYOUT
-// ─────────────────────────────────────────────
 
 class _LandscapeBody extends StatelessWidget {
   final int amount;
@@ -209,9 +202,7 @@ class _LandscapeBody extends StatelessWidget {
   }
 }
 
-// ─────────────────────────────────────────────
 // CHANGE TABLE
-// ─────────────────────────────────────────────
 
 class _ChangeTable extends StatelessWidget {
   final int amount;
@@ -274,9 +265,7 @@ class _ChangeTable extends StatelessWidget {
   }
 }
 
-// ─────────────────────────────────────────────
 // KEYPAD
-// ─────────────────────────────────────────────
 
 class _Keypad extends StatelessWidget {
   final Function(int) onDigit;
