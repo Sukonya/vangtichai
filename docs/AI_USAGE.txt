@@ -1,1 +1,23 @@
- 
+AI Usage Declaration:
+
+This file declares all uses of AI assistance in this project.
+
+Usage 1: Project planning and approach
+
+Tool used: ChatGPT
+What I asked: read the instructions and give me a step by step on what tools i should learn, how to approach this, how to save this project on git.
+What it helped with: Understanding the overall structure, which widgets I need to learn about, and how to handle orientation changes.
+
+
+Usage 2: Code guidance
+
+Tool used: Claude (Anthropic)
+What I asked: Step by step guide to build the app
+What it helped with: Explaining Flutter concepts like StatefulWidget, OrientationBuilder, and LayoutBuilder.
+Then, I built all the codes and structures by myself and took help in places where I got stuck and needed help to understand the concepts better.
+
+Usage 3: Creating space in my computer.
+Problem I faced: The space in my C drive was running out again and again while trying to build the app.
+What I asked: How can I clear up space in my C drive and/or move Android Studio App and all its files to a different directory.
+What it helped with: Helped me build the project from scratch in a different directory and clear up space in my C drive.
+
