@@ -231,10 +231,7 @@ class _ChangeTable extends StatelessWidget {
             height: rowHeight,
             padding: const EdgeInsets.symmetric(horizontal: 12),
             decoration: BoxDecoration(
-              color: index.isEven ? Colors.grey.shade50 : Colors.white,
-              border: Border(
-                bottom: BorderSide(color: Colors.grey.shade200),
-              ),
+              color: Colors.grey.shade100,
             ),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -250,10 +247,7 @@ class _ChangeTable extends StatelessWidget {
                   '$count',
                   style: TextStyle(
                     fontSize: fontSize,
-                    fontWeight: FontWeight.bold,
-                    color: count > 0
-                        ? Theme.of(context).colorScheme.primary
-                        : Colors.grey,
+                    fontWeight: FontWeight.w500,
                   ),
                 ),
               ],
